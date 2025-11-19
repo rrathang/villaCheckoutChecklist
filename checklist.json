@@ -1,19 +1,85 @@
 {
   "Ground Floor Bedroom": [
-    "Main door Key",
-    "Gate Key",
-    "TV Remote"
-  ],
-  "Kitchen": [
-    "Gas turned off",
-    "Utensils cleaned",
-    "Fridge cleaned",
-    "Dustbin cleared"
+    "AC Remote",
+    "Bathroom Soap, Shampoo, pots and other Things",
+    "Bathroom Closet and Sink",
+    "Bedsheets, Pillow covers",
+    "Both bathroom and Room Mirrors",
+    "Furniture"
   ],
   "Living Room": [
-    "Sofa cleaned",
-    "Lights Off",
-    "Fan Off",
-    "TV turned off"
+    "TV Remote",
+    "Check if Tv is working and damages",
+    "Wifi Modem/Router",
+    "Plant Pots",
+    "Main Door Key",
+    "Entrance Gate key",
+    "Dining Table",
+    "Shelf decorative items",
+    "Ring Toss Game rings and Board",
+    "Furniture",
+    "Extra bankets and bedsheets"
+  ],
+  "Pool Area": [
+    "Check Swimming pool for food or Vomit",
+    "Pool area washbasin",
+    "Bathroom Closet",
+    "water leaks",
+    "Furniture"
+  ],
+  "Kitchen": [
+    "Induction Stove",
+    "Electric Kettle",
+    "All Plates, spoons and other cutlery",
+    "kitchen vessels",
+    "Microwave",
+    "Plotted plants",
+    "Fridge and Ice Trays",
+    "All whiskey, beer and other glassware",
+    "Plastic items",
+    "Water can pump",
+    "bulletin board"
+  ],
+  "Play Area": [
+    "Table Tennis Table",
+    "All 4 TT bats",
+    "Carrom board and coins",
+    "Other Games",
+    "Furniture"
+  ],
+    "First Floor Small Bedroom": [
+    "AC Remote",
+    "Bathroom Soap, Shampoo, pots and other Things",
+    "Bathroom Closet and Sink",
+    "Bedsheets, Pillow covers",
+    "Both bathroom and Room Mirrors",
+    "Furniture",
+    "Extra Bankets and bedsheets"
+  ],
+    "First Floor Large Bedroom": [
+    "AC Remote",
+    "Bathroom Soap, Shampoo, pots and other Things",
+    "Bathroom Closet and Sink",
+    "Bedsheets, Pillow covers",
+    "Both bathroom and Room Mirrors",
+    "Furniture",
+    "Shelf decorative items",
+    "Extra Bankets and bedsheets"
+  ],
+    "2nd Floor Bedroom": [
+    "AC Remote",
+    "Wifi Modem/Router",
+    "Bathroom Soap, Shampoo, pots and other Things",
+    "Bathroom Closet and Sink",
+    "Bedsheets, Pillow covers",
+    "Both bathroom and Room Mirrors",
+    "Furniture",
+    "Shelf decorative items",
+    "Extra bankets and bedsheets"
+  ],
+  "Terrace": [
+    "Terrace Table Lights",
+    "Terrace Table",
+    "Furniture"
   ]
 }
