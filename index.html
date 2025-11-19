@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Villa Caretaker Checklist</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body { background: #f0f2f5; }
+    .check-item { padding: 15px; border-radius: 10px; background: #fff; margin-bottom: 15px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    textarea { resize: none; }
+  </style>
+</head>
+<body>
+  <div class="container mt-4 mb-4">
+    <h2 class="text-center mb-4 fw-bold">Villa Caretaker Checklist</h2>
+
+    <div id="checklist"></div>
+
+    <button id="copyBtn" class="btn btn-primary w-100 mt-3 py-2 fs-5">📋 Copy Checklist Summary</button>
+  </div>
+
+  <script>
+    fetch('checklist.json')
+      .then(res => res.json())
+      .then(data => buildChecklist(data));
+
+    function buildChecklist(items) {
+      const container = document.getElementById('checklist');
+
+      items.forEach((item, index) => {
+        const div = document.createElement('div');
+        div.className = 'check-item';
+        div.innerHTML = `
+          <div class="form-check mb-2">
+            <input class="form-check-input" type="checkbox" id="chk_${index}" />
+            <label class="form-check-label fw-semibold" for="chk_${index}">${item}</label>
+          </div>
+          <textarea id="cmt_${index}" class="form-control" placeholder="Comments..." rows="2"></textarea>
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    document.getElementById('copyBtn').addEventListener('click', () => {
+      let summary = 'Villa Checklist Summary
+
+';
+      const items = document.querySelectorAll('.check-item');
+
+      items.forEach((item, idx) => {
+        const isChecked = document.getElementById(`chk_${idx}`).checked;
+        const comment = document.getElementById(`cmt_${idx}`).value.trim();
+
+        summary += `${isChecked ? '✔️' : '❌'} ${item.querySelector('label').innerText}
+`;
+        if (comment) summary += `   ➤ Comment: ${comment}
+`;
+      });
+
+      navigator.clipboard.writeText(summary).then(() => {
+        alert('Checklist copied! Paste into WhatsApp.');
+      });
+    });
+  </script>
+</body>
+</html>
