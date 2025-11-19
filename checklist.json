@@ -1,83 +1,83 @@
 {
-  "Ground Floor Bedroom": [
+  "🛏️ Ground Floor Bedroom": [
     "AC Remote",
-    "Bathroom Soap, Shampoo, pots and other Things",
-    "Bathroom Closet and Sink",
-    "Bedsheets, Pillow covers",
-    "Both bathroom and Room Mirrors",
+    "Bathroom: Soap, Shampoo, Pots, and Essentials",
+    "Bathroom: Closet and Sink",
+    "Bedsheets and Pillow Covers",
+    "Bathroom and Room Mirrors",
     "Furniture"
   ],
-  "Living Room": [
+  "🛋️ Living Room": [
     "TV Remote",
-    "Check if Tv is working and damages",
-    "Wifi Modem/Router",
+    "Check TV Working Condition and Damages",
+    "Wi-Fi Modem/Router",
     "Plant Pots",
     "Main Door Key",
-    "Entrance Gate key",
+    "Entrance Gate Key",
     "Dining Table",
-    "Shelf decorative items",
-    "Ring Toss Game rings and Board",
+    "Shelf Decorative Items",
+    "Ring Toss Game (Rings and Board)",
     "Furniture",
-    "Extra bankets and bedsheets"
+    "Extra Blankets and Bedsheets"
   ],
-  "Pool Area": [
-    "Check Swimming pool for food or Vomit",
-    "Pool area washbasin",
+  "🏊‍♂️ Pool Area": [
+    "Check Pool for Food or Vomit",
+    "Pool Area Washbasin",
     "Bathroom Closet",
-    "water leaks",
+    "Check for Water Leaks",
     "Furniture"
   ],
-  "Kitchen": [
+  "🍽️ Kitchen": [
     "Induction Stove",
     "Electric Kettle",
-    "All Plates, spoons and other cutlery",
-    "kitchen vessels",
+    "Plates, Spoons, and Cutlery",
+    "Kitchen Vessels",
     "Microwave",
-    "Plotted plants",
+    "Potted Plants",
     "Fridge and Ice Trays",
-    "All whiskey, beer and other glassware",
-    "Plastic items",
-    "Water can pump",
-    "bulletin board"
+    "Glassware (Whiskey, Beer, etc.)",
+    "Plastic Items",
+    "Water Can Pump",
+    "Bulletin Board"
   ],
-  "Play Area": [
+  "🎮 Play Area": [
     "Table Tennis Table",
-    "All 4 TT bats",
-    "Carrom board and coins",
+    "All 4 TT Bats",
+    "Carrom Board and Coins",
     "Other Games",
     "Furniture"
   ],
-    "First Floor Small Bedroom": [
+  "🛏️ First Floor Small Bedroom": [
     "AC Remote",
-    "Bathroom Soap, Shampoo, pots and other Things",
-    "Bathroom Closet and Sink",
-    "Bedsheets, Pillow covers",
-    "Both bathroom and Room Mirrors",
+    "Bathroom: Soap, Shampoo, Pots, and Essentials",
+    "Bathroom: Closet and Sink",
+    "Bedsheets and Pillow Covers",
+    "Bathroom and Room Mirrors",
     "Furniture",
-    "Extra Bankets and bedsheets"
+    "Extra Blankets and Bedsheets"
   ],
-    "First Floor Large Bedroom": [
+  "🛏️ First Floor Large Bedroom": [
     "AC Remote",
-    "Bathroom Soap, Shampoo, pots and other Things",
-    "Bathroom Closet and Sink",
-    "Bedsheets, Pillow covers",
-    "Both bathroom and Room Mirrors",
+    "Bathroom: Soap, Shampoo, Pots, and Essentials",
+    "Bathroom: Closet and Sink",
+    "Bedsheets and Pillow Covers",
+    "Bathroom and Room Mirrors",
     "Furniture",
-    "Shelf decorative items",
-    "Extra Bankets and bedsheets"
+    "Shelf Decorative Items",
+    "Extra Blankets and Bedsheets"
   ],
-    "2nd Floor Bedroom": [
+  "🛏️ 2nd Floor Bedroom": [
     "AC Remote",
-    "Wifi Modem/Router",
-    "Bathroom Soap, Shampoo, pots and other Things",
-    "Bathroom Closet and Sink",
-    "Bedsheets, Pillow covers",
-    "Both bathroom and Room Mirrors",
+    "Wi-Fi Modem/Router",
+    "Bathroom: Soap, Shampoo, Pots, and Essentials",
+    "Bathroom: Closet and Sink",
+    "Bedsheets and Pillow Covers",
+    "Bathroom and Room Mirrors",
     "Furniture",
-    "Shelf decorative items",
-    "Extra bankets and bedsheets"
+    "Shelf Decorative Items",
+    "Extra Blankets and Bedsheets"
   ],
-  "Terrace": [
+  "🌅 Terrace": [
     "Terrace Table Lights",
     "Terrace Table",
     "Furniture"
