@@ -43,19 +43,15 @@
     }
 
     document.getElementById('copyBtn').addEventListener('click', () => {
-      let summary = 'Villa Checklist Summary
-
-';
+      let summary = 'Villa Checklist Summary\n\n';
       const items = document.querySelectorAll('.check-item');
 
       items.forEach((item, idx) => {
         const isChecked = document.getElementById(`chk_${idx}`).checked;
         const comment = document.getElementById(`cmt_${idx}`).value.trim();
 
-        summary += `${isChecked ? '✔️' : '❌'} ${item.querySelector('label').innerText}
-`;
-        if (comment) summary += `   ➤ Comment: ${comment}
-`;
+        summary += `${isChecked ? '✔️' : '❌'} ${item.querySelector('label').innerText}\n`;
+        if (comment) summary += `   ➤ Comment: ${comment}\n`;
       });
 
       navigator.clipboard.writeText(summary).then(() => {
