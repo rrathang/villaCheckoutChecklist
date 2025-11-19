@@ -16,13 +16,13 @@ function buildChecklist(categories) {
 
     categories[category].forEach((item, index) => {
       const col = document.createElement('div');
-      col.className = "col-md-6";
+      col.className = "col-md-6";  // 2 per row
 
       col.innerHTML = `
         <div class="check-item">
-          <div class="form-check mb-2">
+          <div class="form-check mb-2 d-flex align-items-center">
             <input class="form-check-input" type="checkbox" id="chk_${catIndex}_${index}" />
-            <label class="form-check-label fw-semibold" for="chk_${catIndex}_${index}">${item}</label>
+            <label class="form-check-label fw-semibold ms-2" for="chk_${catIndex}_${index}">${item}</label>
           </div>
           <textarea id="cmt_${catIndex}_${index}" class="form-control" placeholder="Comments..." rows="2"></textarea>
         </div>
