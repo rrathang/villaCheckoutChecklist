@@ -11,19 +11,26 @@ function buildChecklist(categories) {
 
     section.innerHTML = `<h4 class="fw-bold text-primary mb-3">${category}</h4>`;
 
+    const row = document.createElement('div');
+    row.className = "row";
+
     categories[category].forEach((item, index) => {
-      const div = document.createElement('div');
-      div.className = 'check-item';
-      div.innerHTML = `
-        <div class="form-check mb-2">
-          <input class="form-check-input" type="checkbox" id="chk_${catIndex}_${index}" />
-          <label class="form-check-label fw-semibold" for="chk_${catIndex}_${index}">${item}</label>
+      const col = document.createElement('div');
+      col.className = "col-md-6";
+
+      col.innerHTML = `
+        <div class="check-item">
+          <div class="form-check mb-2">
+            <input class="form-check-input" type="checkbox" id="chk_${catIndex}_${index}" />
+            <label class="form-check-label fw-semibold" for="chk_${catIndex}_${index}">${item}</label>
+          </div>
+          <textarea id="cmt_${catIndex}_${index}" class="form-control" placeholder="Comments..." rows="2"></textarea>
         </div>
-        <textarea id="cmt_${catIndex}_${index}" class="form-control" placeholder="Comments..." rows="2"></textarea>
       `;
-      section.appendChild(div);
+      row.appendChild(col);
     });
 
+    section.appendChild(row);
     container.appendChild(section);
   });
 }
