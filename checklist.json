@@ -1,9 +1,19 @@
-[
-  "Main door locked",
-  "All ACs turned off",
-  "Bedsheet changed",
-  "Bathrooms cleaned",
-  "Water tank checked",
-  "Kitchen cleaned",
-  "Dustbin cleared"
-]
+{
+  "Ground Floor Bedroom": [
+    "Main door Key",
+    "Gate Key",
+    "TV Remote"
+  ],
+  "Kitchen": [
+    "Gas turned off",
+    "Utensils cleaned",
+    "Fridge cleaned",
+    "Dustbin cleared"
+  ],
+  "Living Room": [
+    "Sofa cleaned",
+    "Lights Off",
+    "Fan Off",
+    "TV turned off"
+  ]
+}
